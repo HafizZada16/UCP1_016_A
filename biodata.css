@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Biru pastel */
+    color: #333; /* Warna teks */
+}
+
+.header {
+    background-color: #90caf9; /* Biru pastel lebih gelap */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.home-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background-color: #3697ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.home-btn:hover {
+    background-color: #0056b3;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Gaya untuk tombol media sosial bundar */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #007BFF; /* Warna biru */
+    color: white;
+    border-radius: 50%; /* Membuat tombol bundar */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+.social-icons a:hover {
+    color: #e3f2fd; /* Warna hover lebih terang */
+}
+
+.biodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: center;
+    background-color: #bbdefb; /* Biru pastel lebih terang */
+    padding: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #90caf9; /* Border biru pastel */
+}
+
+.info {
+    flex: 2;
+    padding: 20px;
+}
+
+.info h5 {
+    color: #90caf9; /* Warna biru pastel */
+    margin-bottom: 10px;
+    background-color: #e3f2fd; /* Latar belakang biru pastel */
+    padding: 5px 10px; /* Padding untuk box */
+    border-radius: 5px; /* Membuat sudut box melengkung */
+    display: inline-block; /* Agar box hanya selebar teks */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    border: 1px solid #90caf9; /* Border biru pastel */
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.info h3 span {
+    color: #90caf9; /* Warna biru pastel */
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.info ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.info ul li strong {
+    color: #333;
+}
+
+.info ul li a {
+    color: #90caf9; /* Warna biru pastel */
+    text-decoration: none;
+}
+
+.info ul li a:hover {
+    text-decoration: underline;
+}

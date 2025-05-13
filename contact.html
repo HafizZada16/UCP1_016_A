@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <script src="contact.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about_me.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form onsubmit="submitForm(); return false;">
+            <h1>Form Sewa Server Minecraft</h1>
+            <p>Isi form di bawah ini untuk menyewa server Minecraft dengan performa terbaik dan harga terjangkau.</p>
+            <form onsubmit="submitForm(); return false;">
+                <fieldset>
+                    <legend>Form Pendaftaran Sewa Server</legend>
+                    
+                    <p>Nama: <input type="text" name="nama" placeholder="Masukkan nama Anda" required /></p>
+                    <p>Email: <input type="email" name="email" placeholder="Masukkan email Anda" required /></p>
+                    
+                    <p>Durasi Sewa (bulan): 
+                        <select name="durasi" required>
+                            <option value="1">1 Bulan</option>
+                            <option value="3">3 Bulan</option>
+                            <option value="6">6 Bulan</option>
+                            <option value="12">12 Bulan</option>
+                        </select>
+                    </p>
+                    
+                    <p>Catatan Tambahan: <textarea name="catatan" placeholder="Masukkan catatan tambahan (opsional)"></textarea></p>
+                    
+                    <p><input type="submit" value="Kirim Formulir" /></p>
+                </fieldset>
+        </form>
+    </body>
+</html>
